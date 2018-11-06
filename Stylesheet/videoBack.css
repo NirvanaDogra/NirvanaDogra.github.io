@@ -2,17 +2,17 @@
     position: absolute;
     height: auto;
     widows: 100%;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
     filter:blur(5px);
-    
-    
+
+
 }
 
 .content {
     position: absolute;
     bottom: 0;
-    min-width: 100%; 
+    min-width: 100%;
     max-height: 100%;
     background: rgba(0, 0, 0, 0.5);
     background-attachment: scroll;
@@ -26,22 +26,23 @@
   padding: 42px 0;
   margin-top: 10%;
   width: 100%;
-  color:#FFF;	
-} 
+  color:#FFFFE0;
+}
 .ParallaxContent h2{
-	color:#FFF;	
+	color:#FFF;
 }
-.ParallaxVideo{ 
-    height: 300px;
-    width: 100%;
+.ParallaxVideo{
+    height: 50px;
+    width: 500px;
     padding-bottom: 50px;
-    padding-top: 50px; 
+    padding-left: 25px;
+    /* padding-top: 50px; */
 }
-.ParallaxVideo video{ 
+.ParallaxVideo video{
     min-width: 100%;
-    position: fixed;
-    top:0;
-    z-index: -999;
+    /* position: fixed; */
+    top:50px;
+    /* z-index: -999;  */
 }
 .ParallaxVideo h1 {
   color: #fff;
@@ -50,4 +51,8 @@
   text-align: center;
   text-transform: uppercase;
 }
-
+/* .menu{
+	height:100px;
+	width:450px;
+	float:right;
+} */

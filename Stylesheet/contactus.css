@@ -1,0 +1,44 @@
+
+body{
+  	background-image:url("images/green_dust_scratch.png");
+  }
+
+  .main{
+    /* padding-top: 1000px; */
+    height:1700px;
+    width:900px;
+  }
+
+.contact{
+  /* padding-top: 500px; */
+	height:400px;
+	width:900px;
+}
+
+
+.contact_left{
+	height:400px;
+	width:450px;
+	text-align:left;
+	float:left;
+}
+
+.contact_right{
+	height:400px;
+	width:450px;
+	float:right;
+}
+
+.content1{
+	height:500px;
+	width:900px;
+	font-family:"Palatino Linotype";
+}
+
+.footer{
+	height:100px;
+	width:900px;
+	/* background-image: url("images/pool_table.png*/
+  background-color: green;
+	/* color:#FFF; */
+}
