@@ -1,9 +1,9 @@
 h1 {
     color: #548dd4;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 500%;
-    padding-top: 0%;
-
+    font-size: 500%;    
+    padding-top: 10%;
+    
 }
 h2  {
     color: #f79646;
@@ -13,131 +13,14 @@ h2  {
     padding: 0%;
 
 }
-
-h3  {
-    color: 	#32CD32;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 500%;
-    padding-top: 0%;
-    padding: 0%;
-
-}
 .content {
     position: absolute;
     bottom: 50px;
-    min-width: 100%;
-    max-height: 450px;
-    background: rgba(10, 0, 0, 0.5);
-    margin-top: 150px;
-    padding-top: 100px;
-    padding-left: 450px;
-    /* position: fixed; */
+    min-width: 100%; 
+    max-height: 100%;
+    background: rgba(10, 0, 0, 0.5);    
+    position: fixed;
     top:0;
-    /* z-index: -999; */
-
-}
-.menu{
-	height:75px;
-	width:200px;
-	float:right;
-  padding-top: 10px;
-  /* position: sticky; */
-}
-.bar{
-  height:75px;
-  width:200px;
-  float:right;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-
-
-.events{
-  padding-top: 75px;
-	height:200px;
-	width:1525px;
-	font-weight:bold;
-  font-size: 15pt;
-  font-style: italic;
-}
-
-.about{
-  height:500px;
-  padding-top: 100px;
-  width:100%;
-}
-
-.social{
-  /* height:100px; */
-  width:150px;
-  float:right;
-  /* padding-right: 200px; */
-
-}
-
-.Credits{
-  padding-top:300px;
-  color: red;
-  padding-left: 25px;
-}
-
-.symbol{
-  padding-right: 50px;
-  float: right;
-}
-
-
-p {
-  align-content: center;
-    border-bottom: 6px solid red;
-    background-color: lightgrey;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-
-hr {
-    display: block;
-    margin-top: 200px;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 10px;
-    border-color: orange;
-
-}
-
-
-.fixed-contact{
-	position:fixed;
-	right:0px;
-	bottom:0px;
-	height:50px;
-	width:100px;
-	font-weight:bold;
-	font-size:10pt;
-	background-image:url("images/green_dust_scratch.png");
-}
-
-.event-page{
-	height:400px;
-	width:900px;
-}
-
-.achievements{
-	height:400px;
-	width:900px;
-}
-
-.reccontent{
-  padding-top: 200px;
-}
-
-#container{
-  width: 100%;
-  height:100vh;
-  scroll-behavior: smooth;
-  overflow-y: scroll;
+    z-index: -999;
+    
 }
